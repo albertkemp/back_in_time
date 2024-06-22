@@ -48,11 +48,11 @@ const faceImage = document.getElementById("face-image");
 const fruitImage = document.getElementById("fruit-image");
 //urls:
 /*
-const billgates = 'https://github.com/banana-news/reports/blob/main/docs/images/billgates.png';
-const elonmusk = 'https://github.com/banana-news/reports/blob/main/docs/images/elon.png';
-const alberteinstein = 'https://github.com/banana-news/reports/blob/main/docs/images/einstein.png';
-const joebiden = 'https://github.com/banana-news/reports/blob/main/docs/images/joebiden.png';
-const donaldtrump = 'https://github.com/banana-news/reports/blob/main/docs/images/trump.png';*/
+const billgates = 'https://github.com/banana-news/reports/blob/main/images/billgates.png';
+const elonmusk = 'https://github.com/banana-news/reports/blob/main/images/elon.png';
+const alberteinstein = 'https://github.com/banana-news/reports/blob/main/images/einstein.png';
+const joebiden = 'https://github.com/banana-news/reports/blob/main/images/joebiden.png';
+const donaldtrump = 'https://github.com/banana-news/reports/blob/main/images/trump.png';*/
 
 combineButton.addEventListener("click", function () {
   const faceValue = faceSelect.value;
