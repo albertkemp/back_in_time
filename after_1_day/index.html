@@ -12,7 +12,18 @@
         <title>Home ~ Banana News</title>
     </head>
     <body>
-        <div style="background-color: grey;border: 1px solid black;position:fixed;top:0;left:0;"><h2>This is a copy of an older version of Banana News</h2><a href="https://albertkemp.github.io/back_in_time"><button>Back to "Back In Time" homepage</button></a><button onclick="this.parent.style.display='none';">&times;</button></div>
+         <div id="bananaNewsOverlay" style="background-color: grey;border: 1px solid black;position:fixed;top:0;left:0;">
+            <h2>This is a copy of an older version of Banana News</h2>
+            <a href="https://albertkemp.github.io/back_in_time"><button>Back to "Back In Time" homepage</button></a>
+            <button id="closeBananaNews">&times;</button>  </div>
+          
+          <script>
+          $(document).ready(function() {
+            $("#closeBananaNews").click(function() {
+              $(this).parent().hide();  // Use jQuery hide() for smoother transition
+            });
+          });
+          </script>
         <nav class="navbar"><a href="index.html">Home</a><a href="games.html">Games</a><a href="politics.html">Politics</a><a href="tech.html">Tech</a></nav>
         <br><br><br>
         <h1>BANANA NEWS</h1>
